@@ -1,0 +1,44 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 72px;
+}
+
+.logoImg{
+    margin-left: 59px;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 8px 12px;
+    border-radius: 21px;
+    width: 360px;
+}
+
+/* .searchbar::before{
+    content: "";
+    filter: blur();
+} */
+
+.searchbar img{
+    margin: 0px 4px;
+    margin-right: 16px;
+}
+
+.createAccount{
+    display: flex;
+    align-items: center;
+}
+
+.createAccount img{
+    margin-right: 82px;
+}
+
+.Link{
+    color: black;
+    text-decoration: none;
+}

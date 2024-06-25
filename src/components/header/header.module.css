@@ -1,0 +1,27 @@
+.header{
+    /* position: relative; */
+    background-image: url('/public/images/headerImage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    /* opacity: 0.8; */
+    filter: brightness(70%);
+}
+
+.header h3{
+    position: absolute;
+    padding-top: 358px;
+    padding-bottom: 107px;
+    padding-left: 200px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header p{
+    position: absolute;
+    color: white;
+    padding-left: 200px;
+    padding-top: 409px;
+}
