@@ -3,10 +3,6 @@ import Navbar from "./components/navbar/Navbar";
 import Header from './components/header/Header';
 import Posts from './components/Allposts/Posts';
 import PostContent from './components/PostContent/PostContent';
-import { useState } from 'react';
-import { useContext } from 'react';
-
-
 
 function App() {
   return (

@@ -14,7 +14,7 @@ const Joingroup = () => {
     // Handle form submission
     console.log('Email:', email);
     console.log('Password:', password);
-    if(email == Email && password == Password){
+    if(email === Email && password === Password){
       navigate(`/shlok`);
     }
     else{
